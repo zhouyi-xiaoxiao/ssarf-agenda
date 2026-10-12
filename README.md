@@ -2,6 +2,10 @@
 
 A buildless, static working agenda for 22 October 2026. Publish only `dist/`.
 
+Deployment target: https://ssarf.zhouyixiaoxiao.com/ . GitHub Pages publishes `dist/` from the `main` branch via `.github/workflows/pages.yml`.
+
+Seven proposed agenda sections, a manual chair timer, a compact print layout and calendar download. No backend or collected feedback.
+
 For a local preview from this directory:
 
 ```sh
