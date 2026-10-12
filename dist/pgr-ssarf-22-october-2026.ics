@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PGR Representatives//SSARF Working Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pgr-ssarf-20261022@zhouyixiaoxiao.com
+DTSTAMP:20261012T180000Z
+DTSTART:20261022T103000Z
+DTEND:20261022T120000Z
+SUMMARY:SEMT PGR SSARF - working agenda
+LOCATION:Ada Lovelace SM1
+DESCRIPTION:Personal representatives' working agenda. Online joining details
+ are in the original Outlook invitation. Chairing roles to be agreed.
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
