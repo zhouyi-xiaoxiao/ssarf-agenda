@@ -4,7 +4,7 @@ A buildless, static working agenda for 22 October 2026. Publish only `dist/`.
 
 Deployment target: https://ssarf.zhouyixiaoxiao.com/ . GitHub Pages publishes `dist/` from the `main` branch via `.github/workflows/pages.yml`.
 
-Seven proposed agenda sections, a manual chair timer, a compact print layout and calendar download. No backend or collected feedback.
+Seven proposed agenda sections, a manual chair timer, a three-page A4 print layout and calendar download. The public page includes an anonymous thematic summary of feedback received by 19 October, with proposed questions and unassigned follow-up roles. No backend or raw survey responses.
 
 For a local preview from this directory:
 
@@ -12,7 +12,7 @@ For a local preview from this directory:
 python3 -m http.server 8765 --directory dist
 ```
 
-Open `http://localhost:8765`. The page uses system fonts and no remote scripts, tracking, forms or API services. Private correspondence, the chair script and student feedback belong outside `dist/`.
+Open `http://localhost:8765`. The page uses system fonts and no remote scripts, tracking, forms or API services. Private correspondence, the chair script and raw student feedback belong outside `dist/`. Publish only anonymised themes without individual quotations, respondent profiles or unverified quantitative claims.
 
 Check before publishing:
 

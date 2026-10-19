@@ -57,7 +57,8 @@
     document.getElementById('focus-title').textContent = title;
     document.getElementById('focus-purpose').textContent = detail.querySelector('div > p').textContent;
     const questions = document.getElementById('focus-questions');
-    questions.replaceChildren(detail.querySelector('ul').cloneNode(true));
+    const topics = detail.querySelector('.discussion-topics');
+    questions.replaceChildren((topics || detail.querySelector('ul')).cloneNode(true));
     const context = detail.querySelector('.context-note');
     if (context) questions.append(context.cloneNode(true));
     const outcome = document.getElementById('focus-outcome');
@@ -114,5 +115,9 @@
   window.addEventListener('afterprint', () => {
     agenda.forEach((item, index) => { item.open = printState[index] ?? false; });
   });
+  document.querySelectorAll('.priority-card').forEach(link => link.addEventListener('click', () => {
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) { target.open = true; section = Number(target.dataset.section); }
+  }));
   renderTimer();
 })();
