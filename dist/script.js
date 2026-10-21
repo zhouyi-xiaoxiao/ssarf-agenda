@@ -3,8 +3,8 @@
 (() => {
   const agenda = [...document.querySelectorAll('.agenda-item')];
   const dialog = document.getElementById('focus-dialog');
-  const minutes = [5, 10, 10, 30, 10, 15, 10];
-  const slots = ['11:30', '11:35', '11:45', '11:55', '12:25', '12:35', '12:50'];
+  const minutes = [5, 10, 10, 25, 15, 15, 10];
+  const slots = ['11:30', '11:35', '11:45', '11:55', '12:20', '12:35', '12:50'];
   const display = document.getElementById('timer-display');
   const timerButton = document.getElementById('toggle-timer');
   const timerStatus = document.getElementById('timer-status');
@@ -75,6 +75,10 @@
     document.body.classList.add('focus-open');
   });
   document.getElementById('close-focus').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => {
+    const link = event.target.closest('a[href="#future-plan"]');
+    if (link) { dialog.close(); document.getElementById('future-plan').scrollIntoView(); }
+  });
   dialog.addEventListener('close', () => {
     pauseTimer();
     document.body.classList.remove('focus-open');

@@ -5,13 +5,13 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:pgr-ssarf-20261022@zhouyixiaoxiao.com
-DTSTAMP:20261012T180000Z
+DTSTAMP:20261021T220000Z
 DTSTART:20261022T103000Z
 DTEND:20261022T120000Z
 SUMMARY:SEMT PGR SSARF - working agenda
 LOCATION:Ada Lovelace SM1
-DESCRIPTION:Personal representatives' working agenda. Online joining details
- are in the original Outlook invitation. Chairing roles to be agreed.
+DESCRIPTION:Representatives' working agenda. Chair: Xiaoxiao Zhouyi.
+ Confirm online joining arrangements with the organiser.
 STATUS:TENTATIVE
 END:VEVENT
 END:VCALENDAR
