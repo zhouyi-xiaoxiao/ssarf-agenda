@@ -26,14 +26,14 @@
     try {
       if (document.fullscreenElement) await document.exitFullscreen();
       else if (document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
-      else status.textContent = 'Use your browser’s full-screen menu. / 请使用浏览器菜单中的全屏功能。';
+      else status.textContent = 'Use your browser’s full-screen menu.';
     } catch {
-      status.textContent = 'Use your browser’s full-screen menu. / 请使用浏览器菜单中的全屏功能。';
+      status.textContent = 'Use your browser’s full-screen menu.';
     }
   }
   fullscreen.addEventListener('click', toggleFullscreen);
   document.addEventListener('fullscreenchange', () => {
-    fullscreen.textContent = document.fullscreenElement ? 'Exit full screen / 退出全屏 ⛶' : 'Full screen / 全屏 ⛶';
+    fullscreen.textContent = document.fullscreenElement ? 'Exit full screen ⛶' : 'Full screen ⛶';
     status.textContent = '';
   });
   prev.addEventListener('click', () => move(-1));
