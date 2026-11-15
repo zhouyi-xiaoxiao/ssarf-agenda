@@ -1,10 +1,10 @@
 # PGR SSARF agenda
 
-A buildless, static working agenda for 22 October 2026. Publish only `dist/`.
+The agenda the PGR representatives prepared for the SEMT student–staff forum planned for 22 October 2026, kept as a record. A buildless, static page. Publish only `dist/`.
 
-Deployment target: https://ssarf.zhouyixiaoxiao.com/ . GitHub Pages publishes `dist/` from the `main` branch via `.github/workflows/pages.yml`.
+Live at https://ssarf.zhouyixiaoxiao.com/ . GitHub Pages publishes `dist/` from the `main` branch via `.github/workflows/pages.yml`.
 
-Seven proposed agenda sections, a manual chair timer, a four-page A4 print layout and calendar download. The public page includes an anonymous thematic summary of feedback received by 19 October, plus explicitly labelled representative additions, with proposed questions and unassigned follow-up roles. No backend or raw survey responses.
+The page shows the agenda as it stood on 21 October 2026: seven proposed sections, an anonymous thematic summary of feedback received by 19 October, explicitly labelled representative additions, proposed questions and unassigned follow-up roles, and proposals for after the forum. It does not report what was discussed or decided at the meeting. There is a print layout; the slide version of the agenda prepared for the meeting is at `dist/agenda/`, and the calendar file stays at its original path. No backend or raw survey responses.
 
 For a local preview from this directory:
 
@@ -16,10 +16,8 @@ Open `http://localhost:8765`. The page uses system fonts and no remote scripts, 
 
 Check before publishing:
 
-- Desktop and 320 px mobile: all agenda items and tools remain usable without horizontal scrolling.
-- Keyboard: navigation, native expandable items, focus view, timer controls, Escape to close.
-- Focus view: start, pause, reset, previous and next sections; timer resets when changing section.
+- Desktop and 320 px mobile: all agenda items remain readable without horizontal scrolling.
+- Keyboard: navigation and native expandable items.
 - Print: all seven sections appear in chronological order, with private material absent.
-- Calendar download: 22 October 2026, 11:30–13:00 UK time (BST); no attendee or online joining details.
 
-The page is labelled as a personal working draft and asks search engines not to index it. The indexing instruction does not restrict access; this is public material.
+The page asks search engines not to index it. The indexing instruction does not restrict access; this is public material.
