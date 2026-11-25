@@ -78,3 +78,8 @@
 .record-note{display:grid;grid-template-columns:150px minmax(0,1fr) auto;align-items:baseline;gap:10px 32px;margin-top:28px;padding:18px 0 18px 22px;border-left:2px solid var(--rust)}.record-note .label{color:var(--rust)}.record-note p:not(.label){font-size:14px;line-height:1.75;color:var(--muted);max-width:720px}.record-note a{font-size:13px;white-space:nowrap;text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:4px}.record-note a:hover{color:var(--jade);border-color:var(--jade)}.record-note a span{margin-left:6px}
 @media(max-width:900px){.record-note{grid-template-columns:1fr;padding-left:18px}.record-note a{justify-self:start;margin-top:4px}}
 @media print{.record-note{margin-top:12px;padding:6px 0 6px 12px;grid-template-columns:1fr;gap:4px}.record-note p:not(.label){font-size:10px;line-height:1.5;color:#333}.record-note a{display:none}}
+@media screen and (min-width:761px){.agenda-detail{margin-left:80px}}
+.discussion-topic .meeting-question+.topic-owner{margin-top:16px}
+.hpc-summary~.discussion-topic:last-child{grid-column:auto}
+.outcome .zh{display:block;margin:7px 0 0;font-size:.92em;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
+@media screen and (max-width:600px){.date-art{min-height:330px;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-top:20px}.date-rings{width:236px;height:236px;left:calc(50% - 118px);right:auto;top:calc(50% - 118px)}.date-month,.date-number,.date-day,.date-caption{align-self:center}.date-month{top:0;margin:0 0 4px}.date-number{font-size:150px;line-height:1;padding:0 .05em 0 0}.date-day{margin-top:-10px}.date-caption{position:relative;bottom:auto;left:auto;margin-top:16px}}

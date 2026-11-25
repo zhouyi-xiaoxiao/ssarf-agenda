@@ -16,4 +16,10 @@
     const target = document.querySelector(link.getAttribute('href'));
     if (target) target.open = true;
   }));
+  const openFromHash = () => {
+    const target = location.hash ? document.getElementById(location.hash.slice(1)) : null;
+    if (target && target.matches('details.agenda-item')) target.open = true;
+  };
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 })();
